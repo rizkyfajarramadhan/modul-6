@@ -7,10 +7,14 @@ SOAL
 
 JAWABAN
 
-1.Cookie dan session kegunaannya sama, yaitu unutuk menyimpan aktivitas user.Perbedaannya adalah jika session bersifat sementara, jadi ketika browser ditutup maka session pun akan dihapus sedang untuk cookie masih tetap dapat diakses asal mengetahui ID cookienya
+1.Cookie dan session kegunaannya sama, yaitu unutuk menyimpan aktivitas user.Perbedaannya adalah jika session bersifat sementara, jadi
+  ketika browser ditutup maka session pun akan dihapus sedang untuk cookie masih tetap dapat diakses asal mengetahui ID cookienya
+  
 2.-Pilih cookie dan tekan tombol delete (tombol delete) untuk menghapus cookie yang dipilih
   -Tekan tombol clear (tombol clear) untuk menghapus semua cookie
-  -Klik kanan nilai Domain cookie dan pilih Clear all dari "..." ("..." adalah nama domain) untuk menghapus semua cookie dari domain tersebut.
+  -Klik kanan nilai Domain cookie dan pilih Clear all dari "..." ("..." adalah nama domain) untuk menghapus semua cookie dari domain
+   tersebut.
+  
 3.setcookie('nama_cookie','nilai_cookie') Untuk men-set cookie
   (setcookie('username','', time() - 1 * 3600) Untuk menghapus cookie
   ($_SESSION['test'] = 'value') Untuk men-set session
